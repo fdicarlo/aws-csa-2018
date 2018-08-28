@@ -5,6 +5,7 @@ In order to prepare the **AWS Certified Solutions Architect – Associate Feb 20
 ## Exam blueprint
 
 | Domain | % of Examination|
+|------------- |:-------------:|
 | Domain 1: Design Resilient Architectures | 34% |
 | Domain 2: Define Performant Architectures | 24% |
 | Domain 3: Specify Secure Applications and Architectures | 26% |
