@@ -2,7 +2,9 @@
 
 In order to prepare the **AWS Certified Solutions Architect – Associate Feb 2018 Exam**, I made a document with a summary with all the relevant information to study for the exam. The purpose is to share my notes taken while studying for the AWS CSA certification exam.
 
-## Exam blueprint
+## Exam Blueprint
+
+[Official Blueprint ](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS_Certified_Solutions_Architect_Associate_Feb_2018_%20Exam_Guide_v1.5.2.pdf)
 
 | Domain | % of Examination|
 |------------- |:-------------:|
@@ -33,3 +35,15 @@ Where:
     * 4.2 Determine how to design cost-optimized compute.
 * **Domain 5: Define Operationally-Excellent Architectures**
     * 5.1 Choose design features in solutions that enable operational excellence.
+
+## Regions, Availability zones (AZs), Edge locations
+
+* A **Region** is a physical location in the world which consists of two or more Availability Zones (AZs)
+
+* An **AZ** is one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities. A datacenter is a location where actual physical data resides. A data center typically have 50000 to 80000 physical servers. A single or couple of data centers are clubbed in to one AZ.
+
+* **Edge Locations** are endpoints for AWS which are used for caching content. Typically this consists of CloudFront (Amazon's Content Delivery Network (CDN)). An edge location is where end users access services located at AWS. They are located in most of the major cities around the world and are specifically used by CloudFront (CDN) to distribute content to end user to reduce latency. It is like frontend for the service we access which are located in AWS cloud.
+
+The AWS Cloud infrastructure is built around Regions and Availability Zones (AZs). AWS Regions provide multiple, physically separated and isolated Availability Zones which are connected with low latency, high throughput, and highly redundant networking. These Availability Zones offer AWS customers an easier and more effective way to design and operate applications and databases, making them more highly available, fault tolerant, and scalable than traditional single datacenter infrastructures or multi-datacenter infrastructures. For customers who specifically need to replicate their data or applications over greater geographic distances, there are AWS Local Regions. An AWS Local Region is a single datacenter designed to complement an existing AWS Region. Like all AWS Regions, AWS Local Regions are completely isolated from other AWS Regions. The AWS Cloud spans 55 Availability Zones within 18 geographic Regions and one Local Region around the world.
+
+![region](https://github.com/fdicarlo/aws-csa-2018/blob/master/images/AWS_region.png)
