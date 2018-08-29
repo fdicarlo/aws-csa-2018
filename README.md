@@ -13,9 +13,9 @@ The current document is far to be finalized. If you see something that is missin
 
 ## Commiting
 All commits are welcome, even if they are minor ;)
-If you are unfamiliar with Github, you can email me contributions to the <dicarlo.fabrizio@gmail.com> or [@fdicarlo]
+If you are unfamiliar with Github, you can email me contributions to the <dicarlo.fabrizio@gmail.com> or [@fdicarlo].
 
-[@fdicarlo]: https://twitter.com/fdicarlo.
+[@fdicarlo]: https://twitter.com/fdicarlo
 
 ## Exam Blueprint
 
