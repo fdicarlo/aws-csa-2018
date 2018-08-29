@@ -2,6 +2,21 @@
 
 In order to prepare the **AWS Certified Solutions Architect – Associate Feb 2018 Exam**, I made a document with a summary with all the relevant information to study for the exam. The purpose is to share my notes taken while studying for the AWS CSA certification exam.
 
+## Want to contribute?
+The current document is far to be finalized. If you see something that is missing (networks, commands, tricks etc.), feel free to start there. Alternatively you can contribute with:
+
+* Cleaning up code and making code more polish
+* Giving better explanations
+* Spelling/grammar mistakes
+* Suggestions
+* Anything else not listed here
+
+## Commiting
+All commits are welcome, even if they are minor ;)
+If you are unfamiliar with Github, you can email me contributions to the <dicarlo.fabrizio@gmail.com> or [@fdicarlo]
+
+[@fdicarlo]: https://twitter.com/fdicarlo.
+
 ## Exam Blueprint
 
 [Official Blueprint ](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS_Certified_Solutions_Architect_Associate_Feb_2018_%20Exam_Guide_v1.5.2.pdf)
